@@ -1,0 +1,19 @@
+{
+    "name": "user-directory",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+      "node": "v6.10.1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.15.4",
+      "mongodb": "^2.2.31",
+      "mustache-express": "^1.2.5"
+    }
+  }
