@@ -1,0 +1,130 @@
+.header{
+    width: 95%;
+    margin: 0 2.5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .boxes {
+    border: solid 1px grey;
+    border-radius: 3%;
+    width: 235px;
+    height: 300px;
+    text-align: center;
+    margin: 10px 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3281CB;
+    font-size: 22px;
+    font-weight: lighter;
+  }
+  
+  .card {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 55px;
+    border: solid 1px black;
+    padding: 15px 0 15px 25px;
+  }
+  .card-top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+  }
+  
+  .card-bottom{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card-bottom-titles {
+    width: 100px;
+  }
+  
+  .card-bottom-text p{
+    margin-left: 77px;
+  }
+  
+  .image img {
+    border-radius: 50%;
+    border: solid 1px grey;
+    padding: 5px;
+    margin-top: 15px;
+  }
+  
+  h2 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 65px;
+    font-weight: lighter;
+    margin-left: 15px;
+    margin-bottom: -10px;
+  }
+  
+  h1 a{
+    font-size: 1.5em;
+  }
+  
+  a:hover{
+    color:black;
+  }
+  
+  form button{
+    border: none;
+    border-bottom: solid 1px black;
+    background-color: transparent;
+    color: black;
+    outline:none;
+  }
+  
+  form button:hover{
+    color: #3281CB;
+  
+  }
+  
+  .line-one, .line-two {
+    margin-left: 15px;
+  }
+  
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+  }
+  
+  h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: grey;
+    line-height: 5px;
+  }
+  
+  #hire, #hireme {
+    color: #DD8F7C;
+  }
+  
+  table{
+    width: 550px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  td {
+    padding-bottom: 15px;
+  }
+  
+  .table-header {
+    width: 170px;
+    font-weight: bold;
+  }
